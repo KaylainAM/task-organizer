@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f3f4f6; /* Light gray background for the whole page */
+  background-color: #080e1a; /* Light gray background for the whole page */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -35,7 +35,7 @@ input {
 
 /* Task Rows */
 .task-row {
-  background-color: #e5e7eb; /* Light gray for tasks */
+  background-color: #0055ff; /* Light gray for tasks */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,7 +59,7 @@ input {
   border-radius: 4px;
   cursor: pointer;
   font-weight: bold;
-  color: white;
+  color: rgb(14, 173, 0);
   margin-left: 5px;
   display: flex;
   align-items: center;
@@ -73,11 +73,11 @@ input {
 }
 
 .btn-delete {
-  background-color: #e53e3e; /* Red */
+  background-color: #c50000; /* Red */
 }
 
 .btn-arrow {
-  background-color: #4299e1; /* Blue */
+  background-color: #008bfd; /* Blue */
 }
 
 .btn:hover {

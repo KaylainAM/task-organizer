@@ -52,7 +52,7 @@ function TaskOrganizer() {
         />
        <button 
   onClick={addTask}
-  className="colorass"
+  className="colora"
 >
   Add
 </button>
