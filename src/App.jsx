@@ -6,11 +6,11 @@ function TaskOrganizer() {
 
   // Add a new task
   const addTask = () => {
-    if (inputValue.trim() !== "") {
-      setTasks([...tasks, inputValue]);
-      setInputValue("");
+  if (taskInput.trim() !== "") {
+    setTasks([...tasks, taskInput]); // Adds the new task to the list
+    setTaskInput(""); // This clears the input box after adding
+  }
     }
-  };
 
   // Delete a task
   const deleteTask = (index) => {
