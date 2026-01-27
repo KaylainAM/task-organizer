@@ -41,7 +41,6 @@ function TaskOrganizer() {
 
   return (
     <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded shadow-lg">
-      <h1 className="text-2xl font-bold mb-4">Dynamic Task Organizer</h1>
       
       <div className="flex gap-2 mb-6">
         <input 
@@ -51,12 +50,12 @@ function TaskOrganizer() {
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
-        <button 
-          onClick={addTask}
-          className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
-        >
-          Add
-        </button>
+       <button 
+  onClick={addTask}
+  className="colorass"
+>
+  Add
+</button>
       </div>
 
       <ul className="space-y-3">
