@@ -50,8 +50,15 @@ return (
       <div className="task-row">
         <span className="task-text">Go to work</span>
         <button className="btn btn-delete">Delete</button>
-        <button className="btn btn-arrow">⬆️</button>
-        <button className="btn btn-arrow">⬇️</button>
+       {/* Move Up Button */}
+<button className="btn-arrow" onClick={() => moveTaskUp(index)}>
+  ☝️
+</button>
+
+{/* Move Down Button */}
+<button className="btn-arrow" onClick={() => moveTaskDown(index)}>
+  👇
+</button>
       </div>
     </div>
   </div>
