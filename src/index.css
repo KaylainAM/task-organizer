@@ -52,28 +52,27 @@ input {
   flex-grow: 1;
 }
 
-/* Button Styles */
+/* This ensures ALL buttons have white text */
 .btn {
+  color: white !important; /* The !important ensures it overrides any other styles */
+  font-weight: bold;
   border: none;
   padding: 8px 12px;
   border-radius: 4px;
   cursor: pointer;
-  font-weight: bold;
-  color: rgb(14, 173, 0);
-  margin-left: 5px;
-  display: flex;
-  align-items: center;
+  transition: background-color 0.2s;
 }
 
+/* Specifically for the Add button */
 .btn-add {
   background-color: #48bb78; /* Green */
-  border-radius: 0 4px 4px 0;
-  font-size: 1.1rem;
-  padding: 10px 20px;
+  color: white; 
 }
 
+/* Specifically for the Delete button */
 .btn-delete {
-  background-color: #c50000; /* Red */
+  background-color: #e53e3e; /* Red */
+  color: white;
 }
 
 .btn-arrow {
